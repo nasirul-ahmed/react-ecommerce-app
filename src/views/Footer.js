@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="text-center text-lg-start bg-light text-muted">
+      <footer className="text-center text-lg-start bg-light text-muted mt-4">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
+          <div className="me-5 d-none d-lg-block mx-4">
             <span>Get connect with us at</span>
           </div>
 

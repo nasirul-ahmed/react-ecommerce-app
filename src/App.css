@@ -37,7 +37,7 @@
   margin-right: auto;
 
   height: 210px;
- 
+
   margin: 20px;
   background-color: azure;
   text-align: center;
@@ -58,4 +58,26 @@
 .product-image {
   height: 160px;
   width: 140px;
+}
+
+.image-container-pd {
+  height: 300px;
+  width: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-desc {
+  display: block;
+  position: relative;
+  margin: 0;
+  
+}
+
+.buttons-cont {
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row wrap;
 }
